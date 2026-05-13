@@ -29,9 +29,27 @@
       "color": "#dc6b19",
       "tags": ["fibre-channel", "san", "zoning", "brocade"],
       "env_vars": [
-        { "key": "BROCADE_API_URL", "description": "URL of the Brocade API service", "default": "http://localhost:8003" }
+        { "key": "BROCADE_API_URL", "description": "URL of the Brocade API service", "default": "http://localhost:8013" }
       ],
-      "default_port": 8003,
+      "default_port": 8013,
+      "latest_version": null,
+      "release_url": null,
+      "coming_soon": true
+    },
+    {
+      "id": "Cisco",
+      "name": "Cisco SAN",
+      "description": "Fibre Channel switch management for Cisco SAN fabrics — zones, aliases, ports, and fabric discovery.",
+      "repo": "7331NeMiSiS/API-Explorer_CiscoSAN",
+      "category": "networking",
+      "vendor": "Cisco",
+      "icon": "fa-ethernet",
+      "color": "#dc6b19",
+      "tags": ["fibre-channel", "san", "zoning", "cisco"],
+      "env_vars": [
+        { "key": "CISCOSAN_API_URL", "description": "URL of the Brocade API service", "default": "http://localhost:8014" }
+      ],
+      "default_port": 8014,
       "latest_version": null,
       "release_url": null,
       "coming_soon": true
@@ -47,9 +65,9 @@
       "color": "#1d76db",
       "tags": ["vmware", "vcenter", "esxi", "virtualisation"],
       "env_vars": [
-        { "key": "VMWARE_API_URL", "description": "URL of the VMware API service", "default": "http://localhost:8004" }
+        { "key": "VMWARE_API_URL", "description": "URL of the VMware API service", "default": "http://localhost:8015" }
       ],
-      "default_port": 8004,
+      "default_port": 8015,
       "latest_version": null,
       "release_url": null,
       "coming_soon": true
@@ -65,9 +83,9 @@
       "color": "#e06000",
       "tags": ["proxmox", "virtualisation", "lxc", "kvm"],
       "env_vars": [
-        { "key": "PROXMOX_API_URL", "description": "URL of the Proxmox API service", "default": "http://localhost:8005" }
+        { "key": "PROXMOX_API_URL", "description": "URL of the Proxmox API service", "default": "http://localhost:8016" }
       ],
-      "default_port": 8005,
+      "default_port": 8016,
       "latest_version": null,
       "release_url": null,
       "coming_soon": true
