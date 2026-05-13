@@ -1,0 +1,76 @@
+{
+  "registry_version": "1",
+  "modules": [
+    {
+      "id": "vsp-one-block",
+      "name": "Hitachi VSP One Block",
+      "description": "Full management for Hitachi VSP One Block storage arrays — volumes, snapshots, replication, ports, host groups, NVMe, and remote copy pairs.",
+      "repo": "7331NeMiSiS/API-Explorer_VSPOneBlock-API",
+      "category": "storage",
+      "vendor": "Hitachi",
+      "icon": "fa-server",
+      "color": "#e11d48",
+      "tags": ["block-storage", "hitachi", "vsp", "replication", "nvme"],
+      "env_vars": [
+        { "key": "STORAGE_API_URL", "description": "URL of the VSP One Block API service", "default": "http://localhost:8001" }
+      ],
+      "default_port": 8001,
+      "latest_version": "1.0.0",
+      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_VSPOneBlock-API/releases"
+    },
+    {
+      "id": "brocade",
+      "name": "Brocade SAN",
+      "description": "Fibre Channel switch management for Brocade / Broadcom SAN fabrics — zones, aliases, ports, and fabric discovery.",
+      "repo": "7331NeMiSiS/API-Explorer_Brocade",
+      "category": "networking",
+      "vendor": "Broadcom",
+      "icon": "fa-network-wired",
+      "color": "#dc6b19",
+      "tags": ["fibre-channel", "san", "zoning", "brocade"],
+      "env_vars": [
+        { "key": "BROCADE_API_URL", "description": "URL of the Brocade API service", "default": "http://localhost:8003" }
+      ],
+      "default_port": 8003,
+      "latest_version": null,
+      "release_url": null,
+      "coming_soon": true
+    },
+    {
+      "id": "vmware",
+      "name": "VMware vSphere",
+      "description": "vCenter and ESXi management — VMs, datastores, networks, snapshots, and resource pools.",
+      "repo": "7331NeMiSiS/API-Explorer_VMware",
+      "category": "virtualisation",
+      "vendor": "Broadcom",
+      "icon": "fa-cloud",
+      "color": "#1d76db",
+      "tags": ["vmware", "vcenter", "esxi", "virtualisation"],
+      "env_vars": [
+        { "key": "VMWARE_API_URL", "description": "URL of the VMware API service", "default": "http://localhost:8004" }
+      ],
+      "default_port": 8004,
+      "latest_version": null,
+      "release_url": null,
+      "coming_soon": true
+    },
+    {
+      "id": "proxmox",
+      "name": "Proxmox VE",
+      "description": "Proxmox Virtual Environment management — VMs, LXC containers, storage, networks, and cluster overview.",
+      "repo": "7331NeMiSiS/API-Explorer_Proxmox",
+      "category": "virtualisation",
+      "vendor": "Proxmox",
+      "icon": "fa-box-open",
+      "color": "#e06000",
+      "tags": ["proxmox", "virtualisation", "lxc", "kvm"],
+      "env_vars": [
+        { "key": "PROXMOX_API_URL", "description": "URL of the Proxmox API service", "default": "http://localhost:8005" }
+      ],
+      "default_port": 8005,
+      "latest_version": null,
+      "release_url": null,
+      "coming_soon": true
+    }
+  ]
+}
