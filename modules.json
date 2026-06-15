@@ -79,7 +79,7 @@
       "repo": "7331NeMiSiS/API-Explorer_Linux",
       "category": "OS",
       "vendor": "Linux",
-      "icon": "fa-linux",
+      "icon": "fa fa-linux",
       "color": "#e06000",
       "tags": ["Redhat", "SuSE", "Ubuntu", "OEL","Centos"],
       "env_vars": [
@@ -97,7 +97,7 @@
       "repo": "7331NeMiSiS/API-Explorer_Windows",
       "category": "OS",
       "vendor": "Microsoft",
-      "icon": "fa-windows",
+      "icon": "fa fa-windows",
       "color": "#e06000",
       "tags": ["2025", "2022", "2019"],
       "env_vars": [
