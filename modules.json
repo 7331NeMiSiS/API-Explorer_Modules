@@ -80,7 +80,7 @@
       "category": "OS",
       "vendor": "Linux",
       "icon": "fa-brands fa-linux",
-      "color": "#e06000",
+      "color": "#1d76db",
       "tags": ["Redhat", "SuSE", "Ubuntu", "OEL","CentOS"],
       "env_vars": [
         { "key": "LINUX_API_URL", "description": "URL of the Linux API service", "default": "http://localhost:8016" }
@@ -98,7 +98,7 @@
       "category": "OS",
       "vendor": "Microsoft",
       "icon": "fa-brands fa-windows",
-      "color": "#e06000",
+      "color": "#1d76db",
       "tags": ["2025", "2022", "2019"],
       "env_vars": [
         { "key": "WINDOWS_API_URL", "description": "URL of the Windows API service", "default": "http://localhost:8017" }
@@ -116,7 +116,7 @@
       "category": "Hitachi",
       "vendor": "Hitachi",
       "icon": "fa-solid fa-phone-volume",
-      "color": "#e06000",
+      "color": "#e11d48",
       "tags": ["Block", "Object", "360", "Clear Sight"],
       "env_vars": [
         { "key": "REMOTEOPS_API_URL", "description": "URL of the Remote Ops API service", "default": "http://localhost:8018" }
