@@ -115,7 +115,7 @@
       "repo": "7331NeMiSiS/API-Explorer_RemoteOps",
       "category": "Hitachi",
       "vendor": "Hitachi",
-      "icon": "fa-telephone",
+      "icon": "fa-solid fa-phone-volume",
       "color": "#e06000",
       "tags": ["Block", "Object", "360", "Clear Sight"],
       "env_vars": [
