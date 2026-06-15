@@ -73,19 +73,37 @@
       "coming_soon": true
     },
     {
-      "id": "proxmox",
-      "name": "Proxmox VE",
-      "description": "Proxmox Virtual Environment management — VMs, LXC containers, storage, networks, and cluster overview.",
-      "repo": "7331NeMiSiS/API-Explorer_Proxmox",
-      "category": "virtualisation",
-      "vendor": "Proxmox",
-      "icon": "fa-box-open",
+      "id": "linux",
+      "name": "Linux",
+      "description": "Host monitoring and detection, End-to-end, ",
+      "repo": "7331NeMiSiS/API-Explorer_Linux",
+      "category": "OS",
+      "vendor": "Linux",
+      "icon": "fa-linux",
       "color": "#e06000",
-      "tags": ["proxmox", "virtualisation", "lxc", "kvm"],
+      "tags": ["Redhat", "SuSE", "Ubuntu", "OEL","Centos"],
       "env_vars": [
-        { "key": "PROXMOX_API_URL", "description": "URL of the Proxmox API service", "default": "http://localhost:8016" }
+        { "key": "LINUX_API_URL", "description": "URL of the Linux API service", "default": "http://localhost:8016" }
       ],
       "default_port": 8016,
+      "latest_version": null,
+      "release_url": null,
+      "coming_soon": true
+    },
+    {
+      "id": "windows",
+      "name": "Windows",
+      "description": "Host monitoring and detection, End-to-end, ",
+      "repo": "7331NeMiSiS/API-Explorer_Windows",
+      "category": "OS",
+      "vendor": "Microsoft",
+      "icon": "fa-windows",
+      "color": "#e06000",
+      "tags": ["2025", "2022", "2019"],
+      "env_vars": [
+        { "key": "WINDOWS_API_URL", "description": "URL of the Windows API service", "default": "http://localhost:8017" }
+      ],
+      "default_port": 8017,
       "latest_version": null,
       "release_url": null,
       "coming_soon": true
