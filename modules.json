@@ -79,7 +79,7 @@
       "repo": "7331NeMiSiS/API-Explorer_Linux",
       "category": "OS",
       "vendor": "Linux",
-      "icon": "fa fa-linux",
+      "icon": "fab fa-linux",
       "color": "#e06000",
       "tags": ["Redhat", "SuSE", "Ubuntu", "OEL","Centos"],
       "env_vars": [
