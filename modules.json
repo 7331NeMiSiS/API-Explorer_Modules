@@ -104,7 +104,7 @@
         }
       ],
       "default_port": 8020,
-      "latest_version": null,
+      "latest_version": "1.0.0",
       "release_url": "https://github.com/7331NeMiSiS/API-Explorer_Vmware.git"
     },
     {
