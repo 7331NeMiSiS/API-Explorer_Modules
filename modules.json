@@ -10,9 +10,19 @@
       "vendor": "Hitachi",
       "icon": "fa-server",
       "color": "#e11d48",
-      "tags": ["block-storage", "hitachi", "vsp", "replication", "nvme"],
+      "tags": [
+        "block-storage",
+        "hitachi",
+        "vsp",
+        "replication",
+        "nvme"
+      ],
       "env_vars": [
-        { "key": "STORAGE_API_URL", "description": "URL of the VSP One Block API service", "default": "http://localhost:8001" }
+        {
+          "key": "STORAGE_API_URL",
+          "description": "URL of the VSP One Block API service",
+          "default": "http://localhost:8001"
+        }
       ],
       "default_port": 8001,
       "latest_version": "1.0.0",
@@ -27,9 +37,18 @@
       "vendor": "Broadcom",
       "icon": "fa-network-wired",
       "color": "#dc6b19",
-      "tags": ["fibre-channel", "san", "zoning", "brocade"],
+      "tags": [
+        "fibre-channel",
+        "san",
+        "zoning",
+        "brocade"
+      ],
       "env_vars": [
-        { "key": "BROCADE_API_URL", "description": "URL of the Brocade API service", "default": "http://localhost:8013" }
+        {
+          "key": "BROCADE_API_URL",
+          "description": "URL of the Brocade API service",
+          "default": "http://localhost:8013"
+        }
       ],
       "default_port": 8010,
       "latest_version": "1.0.0",
@@ -44,9 +63,18 @@
       "vendor": "Cisco",
       "icon": "fa-ethernet",
       "color": "#dc6b19",
-      "tags": ["fibre-channel", "san", "zoning", "cisco"],
+      "tags": [
+        "fibre-channel",
+        "san",
+        "zoning",
+        "cisco"
+      ],
       "env_vars": [
-        { "key": "CISCOSAN_API_URL", "description": "URL of the Brocade API service", "default": "http://localhost:8014" }
+        {
+          "key": "CISCOSAN_API_URL",
+          "description": "URL of the Brocade API service",
+          "default": "http://localhost:8014"
+        }
       ],
       "default_port": 8014,
       "latest_version": null,
@@ -62,9 +90,18 @@
       "vendor": "Broadcom",
       "icon": "fa-cloud",
       "color": "#1d76db",
-      "tags": ["vmware", "vcenter", "esxi", "virtualisation"],
+      "tags": [
+        "vmware",
+        "vcenter",
+        "esxi",
+        "virtualisation"
+      ],
       "env_vars": [
-        { "key": "VMWARE_API_URL", "description": "URL of the VMware API service", "default": "http://localhost:8020" }
+        {
+          "key": "VMWARE_API_URL",
+          "description": "URL of the VMware API service",
+          "default": "http://localhost:8020"
+        }
       ],
       "default_port": 8020,
       "latest_version": null,
@@ -79,9 +116,19 @@
       "vendor": "Linux",
       "icon": "fa-brands fa-linux",
       "color": "#1d76db",
-      "tags": ["Redhat", "SuSE", "Ubuntu", "OEL","CentOS"],
+      "tags": [
+        "Redhat",
+        "SuSE",
+        "Ubuntu",
+        "OEL",
+        "CentOS"
+      ],
       "env_vars": [
-        { "key": "LINUX_API_URL", "description": "URL of the Linux API service", "default": "http://localhost:8016" }
+        {
+          "key": "LINUX_API_URL",
+          "description": "URL of the Linux API service",
+          "default": "http://localhost:8016"
+        }
       ],
       "default_port": 8016,
       "latest_version": null,
@@ -97,9 +144,17 @@
       "vendor": "Microsoft",
       "icon": "fa-brands fa-windows",
       "color": "#1d76db",
-      "tags": ["2025", "2022", "2019"],
+      "tags": [
+        "2025",
+        "2022",
+        "2019"
+      ],
       "env_vars": [
-        { "key": "WINDOWS_API_URL", "description": "URL of the Windows API service", "default": "http://localhost:8017" }
+        {
+          "key": "WINDOWS_API_URL",
+          "description": "URL of the Windows API service",
+          "default": "http://localhost:8017"
+        }
       ],
       "default_port": 8017,
       "latest_version": null,
@@ -115,9 +170,18 @@
       "vendor": "Hitachi",
       "icon": "fa-solid fa-phone-volume",
       "color": "#e11d48",
-      "tags": ["Block", "Object", "360", "Clear Sight"],
+      "tags": [
+        "Block",
+        "Object",
+        "360",
+        "Clear Sight"
+      ],
       "env_vars": [
-        { "key": "REMOTEOPS_API_URL", "description": "URL of the Remote Ops API service", "default": "http://localhost:8018" }
+        {
+          "key": "REMOTEOPS_API_URL",
+          "description": "URL of the Remote Ops API service",
+          "default": "http://localhost:8018"
+        }
       ],
       "default_port": 8018,
       "latest_version": null,
