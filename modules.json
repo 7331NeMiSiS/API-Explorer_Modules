@@ -31,10 +31,9 @@
       "env_vars": [
         { "key": "BROCADE_API_URL", "description": "URL of the Brocade API service", "default": "http://localhost:8013" }
       ],
-      "default_port": 8013,
-      "latest_version": null,
-      "release_url": null,
-      "coming_soon": true
+      "default_port": 8010,
+      "latest_version": "1.0.0",
+      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_Brocade.git",
     },
     {
       "id": "Cisco",
@@ -65,12 +64,11 @@
       "color": "#1d76db",
       "tags": ["vmware", "vcenter", "esxi", "virtualisation"],
       "env_vars": [
-        { "key": "VMWARE_API_URL", "description": "URL of the VMware API service", "default": "http://localhost:8015" }
+        { "key": "VMWARE_API_URL", "description": "URL of the VMware API service", "default": "http://localhost:8020" }
       ],
-      "default_port": 8015,
+      "default_port": 8020,
       "latest_version": null,
-      "release_url": null,
-      "coming_soon": true
+      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_Vmware.git"
     },
     {
       "id": "linux",
