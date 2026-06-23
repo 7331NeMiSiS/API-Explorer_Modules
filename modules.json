@@ -47,7 +47,7 @@
         {
           "key": "BROCADE_API_URL",
           "description": "URL of the Brocade API service",
-          "default": "http://localhost:8013"
+          "default": "http://localhost:8010"
         }
       ],
       "default_port": 8010,
