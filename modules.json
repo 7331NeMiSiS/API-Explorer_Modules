@@ -164,8 +164,8 @@
     {
       "id": "remote-ops",
       "name": "Remote Ops",
-      "description": "Telemetry data from your Hitachi Equipment. Including Firmware and upgrade management.",
-      "repo": "7331NeMiSiS/API-Explorer_RemoteOps",
+      "description": "Telemetry data from your Hitachi Equipment, including firmware and upgrade management. Simple Remote Ops container deployment via Modules so you don't need another server to install it on.",
+      "repo": "7331NeMiSiS/API-Explorer_Remote-Ops",
       "category": "Hitachi",
       "vendor": "Hitachi",
       "icon": "fa-solid fa-phone-volume",
@@ -186,6 +186,88 @@
       "default_port": 8018,
       "latest_version": null,
       "release_url": null,
+      "coming_soon": true
+    },
+    {
+      "id": "clear-sight",
+      "name": "Clear Sight",
+      "description": "Information on your contract, support base, patches and more via the Hitachi VSP 360 Clear Sight SaaS API.",
+      "repo": "7331NeMiSiS/API-Explorer_ClearSight",
+      "category": "Hitachi",
+      "vendor": "Hitachi",
+      "icon": "fa-solid fa-chart-line",
+      "color": "#e11d48",
+      "tags": [
+        "clear-sight",
+        "vsp360",
+        "contracts",
+        "support",
+        "patches"
+      ],
+      "env_vars": [
+        {
+          "key": "CLEARSIGHT_API_URL",
+          "description": "URL of the Clear Sight API service",
+          "default": "http://localhost:8019"
+        }
+      ],
+      "default_port": 8019,
+      "latest_version": null,
+      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_ClearSight",
+      "coming_soon": true
+    },
+    {
+      "id": "operating-systems",
+      "name": "Operating Systems",
+      "description": "Add Operating Systems as servers, making it simple to add initiators and details to volumes on what they're used for.",
+      "repo": "7331NeMiSiS/API-Explorer_OperatingSystems",
+      "category": "OS",
+      "vendor": "Multi-vendor",
+      "icon": "fa-solid fa-display",
+      "color": "#1d76db",
+      "tags": [
+        "servers",
+        "initiators",
+        "hosts",
+        "volumes"
+      ],
+      "env_vars": [
+        {
+          "key": "OPERATINGSYSTEMS_API_URL",
+          "description": "URL of the Operating Systems API service",
+          "default": "http://localhost:8021"
+        }
+      ],
+      "default_port": 8021,
+      "latest_version": null,
+      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_OperatingSystems",
+      "coming_soon": true
+    },
+    {
+      "id": "cybersense",
+      "name": "CyberSense",
+      "description": "Enrich snapshots with tags, simplify policy creation, management and configuration.",
+      "repo": "7331NeMiSiS/API-Explorer_CyberSense",
+      "category": "security",
+      "vendor": "Index Engines",
+      "icon": "fa-solid fa-shield-halved",
+      "color": "#0f766e",
+      "tags": [
+        "cybersense",
+        "snapshots",
+        "ransomware",
+        "policies"
+      ],
+      "env_vars": [
+        {
+          "key": "CYBERSENSE_API_URL",
+          "description": "URL of the CyberSense API service",
+          "default": "http://localhost:8022"
+        }
+      ],
+      "default_port": 8022,
+      "latest_version": null,
+      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_CyberSense",
       "coming_soon": true
     }
   ]
