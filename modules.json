@@ -108,60 +108,6 @@
       "release_url": "https://github.com/7331NeMiSiS/API-Explorer_Vmware.git"
     },
     {
-      "id": "linux",
-      "name": "Linux",
-      "description": "Host monitoring and detection, End-to-end, ",
-      "repo": "7331NeMiSiS/API-Explorer_Linux",
-      "category": "OS",
-      "vendor": "Linux",
-      "icon": "fa-brands fa-linux",
-      "color": "#1d76db",
-      "tags": [
-        "Redhat",
-        "SuSE",
-        "Ubuntu",
-        "OEL",
-        "CentOS"
-      ],
-      "env_vars": [
-        {
-          "key": "LINUX_API_URL",
-          "description": "URL of the Linux API service",
-          "default": "http://localhost:8016"
-        }
-      ],
-      "default_port": 8016,
-      "latest_version": null,
-      "release_url": null,
-      "coming_soon": true
-    },
-    {
-      "id": "windows",
-      "name": "Windows",
-      "description": "Host monitoring and detection, End-to-end, ",
-      "repo": "7331NeMiSiS/API-Explorer_Windows",
-      "category": "OS",
-      "vendor": "Microsoft",
-      "icon": "fa-brands fa-windows",
-      "color": "#1d76db",
-      "tags": [
-        "2025",
-        "2022",
-        "2019"
-      ],
-      "env_vars": [
-        {
-          "key": "WINDOWS_API_URL",
-          "description": "URL of the Windows API service",
-          "default": "http://localhost:8017"
-        }
-      ],
-      "default_port": 8017,
-      "latest_version": null,
-      "release_url": null,
-      "coming_soon": true
-    },
-    {
       "id": "remote-ops",
       "name": "Remote Ops",
       "description": "Telemetry data from your Hitachi Equipment, including firmware and upgrade management. Simple Remote Ops container deployment via Modules so you don't need another server to install it on.",
