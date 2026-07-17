@@ -130,9 +130,8 @@
         }
       ],
       "default_port": 8018,
-      "latest_version": null,
-      "release_url": null,
-      "coming_soon": true
+      "latest_version": "0.1.0",
+      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_Remote-Ops/releases/tag/v0.1.0"
     },
     {
       "id": "clear-sight",
@@ -185,9 +184,8 @@
         }
       ],
       "default_port": 8021,
-      "latest_version": null,
-      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_OperatingSystems",
-      "coming_soon": true
+      "latest_version": "0.1.0",
+      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_OperatingSystems/releases/tag/v0.1.0"
     },
     {
       "id": "cybersense",
