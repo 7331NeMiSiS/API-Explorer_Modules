@@ -212,6 +212,33 @@
       "default_port": 8022,
       "latest_version": "1.0.0",
       "release_url": "https://github.com/7331NeMiSiS/API-Explorer_CyberSense.git"
+    },
+    {
+      "id": "ai-agent",
+      "name": "AI Assistant",
+      "description": "On-prem AI assistant — retrieval-augmented chat over your module docs with read-only tool calls, powered by a local Ollama LLM. Runs on CPU-only hosts and keeps every request inside your environment. Adds the floating AI Chat panel to the GUI.",
+      "repo": "7331NeMiSiS/API-Explorer_AI-Agent",
+      "category": "ai",
+      "vendor": "API Explorer",
+      "icon": "fa-solid fa-comments",
+      "color": "#0d9488",
+      "tags": [
+        "ai",
+        "assistant",
+        "rag",
+        "ollama",
+        "chat"
+      ],
+      "env_vars": [
+        {
+          "key": "AIAGENT_API_URL",
+          "description": "URL of the AI Agent API service",
+          "default": "http://localhost:8023"
+        }
+      ],
+      "default_port": 8023,
+      "latest_version": "0.1.0",
+      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_AI-Agent/releases"
     }
   ]
 }

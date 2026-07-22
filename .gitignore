@@ -2,3 +2,4 @@
 *.md
 /flask_session
 /.claude
+docs/.DS_Store
