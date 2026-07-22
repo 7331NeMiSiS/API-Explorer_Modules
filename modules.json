@@ -216,7 +216,7 @@
     {
       "id": "ai-agent",
       "name": "AI Assistant",
-      "description": "On-prem AI assistant — retrieval-augmented chat over your module docs with read-only tool calls, powered by a local Ollama LLM. Runs on CPU-only hosts and keeps every request inside your environment. Adds the floating AI Chat panel to the GUI.",
+      "description": "On-prem AI assistant — retrieval-augmented chat over your module docs with read-only tool calls, powered by a local LLM. Runs on CPU-only hosts and keeps every request inside your environment. Adds the floating AI Chat panel to the GUI.",
       "repo": "7331NeMiSiS/API-Explorer_AI-Agent",
       "category": "ai",
       "vendor": "API Explorer",
