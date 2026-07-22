@@ -3,3 +3,4 @@
 /flask_session
 /.claude
 docs/.DS_Store
+/docs/agent/__pycache__
