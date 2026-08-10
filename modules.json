@@ -239,6 +239,146 @@
       "default_port": 8023,
       "latest_version": "0.1.0",
       "release_url": "https://github.com/7331NeMiSiS/API-Explorer_AI-Agent/releases"
+    },
+    {
+      "id": "proxmox",
+      "name": "Proxmox VE",
+      "description": "Proxmox Virtual Environment management — cluster nodes, KVM virtual machines, LXC containers, storage backends, and snapshots.",
+      "repo": "7331NeMiSiS/API-Explorer_Proxmox",
+      "category": "virtualisation",
+      "vendor": "Proxmox",
+      "icon": "fa-solid fa-cubes",
+      "color": "#e57000",
+      "tags": [
+        "proxmox",
+        "kvm",
+        "lxc",
+        "virtualisation",
+        "cluster"
+      ],
+      "env_vars": [
+        {
+          "key": "PROXMOX_API_URL",
+          "description": "URL of the Proxmox API service",
+          "default": "http://localhost:8024"
+        }
+      ],
+      "default_port": 8024,
+      "latest_version": null,
+      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_Proxmox",
+      "coming_soon": true
+    },
+    {
+      "id": "hyper-v",
+      "name": "Microsoft Hyper-V",
+      "description": "Hyper-V host and Failover Cluster management — virtual machines, checkpoints, virtual switches, and cluster shared volumes.",
+      "repo": "7331NeMiSiS/API-Explorer_HyperV",
+      "category": "virtualisation",
+      "vendor": "Microsoft",
+      "icon": "fa-brands fa-windows",
+      "color": "#0078d4",
+      "tags": [
+        "hyper-v",
+        "windows",
+        "failover-cluster",
+        "virtualisation",
+        "csv"
+      ],
+      "env_vars": [
+        {
+          "key": "HYPERV_API_URL",
+          "description": "URL of the Hyper-V API service",
+          "default": "http://localhost:8025"
+        }
+      ],
+      "default_port": 8025,
+      "latest_version": null,
+      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_HyperV",
+      "coming_soon": true
+    },
+    {
+      "id": "openshift",
+      "name": "Red Hat OpenShift",
+      "description": "OpenShift and Kubernetes management — projects, workloads, persistent volume claims, storage classes, and the CSI-attached storage behind them.",
+      "repo": "7331NeMiSiS/API-Explorer_OpenShift",
+      "category": "virtualisation",
+      "vendor": "Red Hat",
+      "icon": "fa-brands fa-redhat",
+      "color": "#ee0000",
+      "tags": [
+        "openshift",
+        "kubernetes",
+        "containers",
+        "csi",
+        "persistent-volumes"
+      ],
+      "env_vars": [
+        {
+          "key": "OPENSHIFT_API_URL",
+          "description": "URL of the OpenShift API service",
+          "default": "http://localhost:8026"
+        }
+      ],
+      "default_port": 8026,
+      "latest_version": null,
+      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_OpenShift",
+      "coming_soon": true
+    },
+    {
+      "id": "veeam",
+      "name": "Veeam Backup & Replication",
+      "description": "Veeam Backup & Replication insight — backup jobs, repositories, restore points, and protected workloads, tied back to the volumes that hold them.",
+      "repo": "7331NeMiSiS/API-Explorer_Veeam",
+      "category": "data-protection",
+      "vendor": "Veeam",
+      "icon": "fa-solid fa-box-archive",
+      "color": "#00b336",
+      "tags": [
+        "veeam",
+        "backup",
+        "restore-points",
+        "repositories",
+        "data-protection"
+      ],
+      "env_vars": [
+        {
+          "key": "VEEAM_API_URL",
+          "description": "URL of the Veeam API service",
+          "default": "http://localhost:8027"
+        }
+      ],
+      "default_port": 8027,
+      "latest_version": null,
+      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_Veeam",
+      "coming_soon": true
+    },
+    {
+      "id": "commvault",
+      "name": "Commvault",
+      "description": "Commvault data protection — clients, subclients, storage policies, backup jobs, and restore points across the protected estate.",
+      "repo": "7331NeMiSiS/API-Explorer_Commvault",
+      "category": "data-protection",
+      "vendor": "Commvault",
+      "icon": "fa-solid fa-vault",
+      "color": "#7c3aed",
+      "tags": [
+        "commvault",
+        "backup",
+        "storage-policies",
+        "restore",
+        "data-protection"
+      ],
+      "env_vars": [
+        {
+          "key": "COMMVAULT_API_URL",
+          "description": "URL of the Commvault API service",
+          "default": "http://localhost:8028"
+        }
+      ],
+      "default_port": 8028,
+      "latest_version": null,
+      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_Commvault",
+      "coming_soon": true
     }
   ]
 }
