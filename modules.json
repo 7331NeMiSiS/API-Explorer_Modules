@@ -299,7 +299,7 @@
     {
       "id": "openshift",
       "name": "Red Hat OpenShift",
-      "description": "OpenShift and Kubernetes management — projects, workloads, persistent volume claims, storage classes, and the CSI-attached storage behind them.",
+      "description": "Visibility into OpenShift and Kubernetes clusters whose persistent volumes live on Hitachi arrays — nodes, storage classes, PVCs and PVs, correlated to the LDEVs, host groups and ports behind them.",
       "repo": "7331NeMiSiS/API-Explorer_OpenShift",
       "category": "virtualisation",
       "vendor": "Red Hat",
@@ -320,9 +320,8 @@
         }
       ],
       "default_port": 8026,
-      "latest_version": null,
-      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_OpenShift",
-      "coming_soon": true
+      "latest_version": "0.1.0",
+      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_OpenShift.git"
     },
     {
       "id": "veeam",
