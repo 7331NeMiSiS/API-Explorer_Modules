@@ -4,7 +4,7 @@
     {
       "id": "vsp-one-block",
       "name": "Hitachi VSP One Block",
-      "description": "Full management for Hitachi VSP One Block storage arrays — volumes, snapshots, replication, ports, host groups, NVMe, and remote copy pairs.",
+      "description": "Full management for Hitachi VSP One Block storage arrays \u2014 volumes, snapshots, replication, ports, host groups, NVMe, and remote copy pairs.",
       "repo": "7331NeMiSiS/API-Explorer_VSPOneBlock-API",
       "category": "storage",
       "vendor": "Hitachi",
@@ -58,7 +58,7 @@
     {
       "id": "brocade",
       "name": "Brocade SAN",
-      "description": "Fibre Channel switch management for Brocade / Broadcom SAN fabrics — zones, aliases, ports, and fabric discovery.",
+      "description": "Fibre Channel switch management for Brocade / Broadcom SAN fabrics \u2014 zones, aliases, ports, and fabric discovery.",
       "repo": "7331NeMiSiS/API-Explorer_Brocade",
       "category": "networking",
       "vendor": "Broadcom",
@@ -83,8 +83,8 @@
     },
     {
       "id": "cisco",
-      "name": "Cisco SAN",
-      "description": "Fibre Channel switch management for Cisco SAN fabrics — zones, aliases, ports, and fabric discovery.",
+      "name": "Cisco Switches",
+      "description": "Cisco MDS FC fabrics \u2014 zoning, FLOGI, VSANs, congestion, SFP optics \u2014 plus Nexus/Catalyst IP switch health, correlated to arrays and servers by WWPN.",
       "repo": "7331NeMiSiS/API-Explorer_Cisco",
       "category": "networking",
       "vendor": "Cisco",
@@ -106,12 +106,12 @@
       "default_port": 8014,
       "latest_version": null,
       "release_url": null,
-      "coming_soon": true
+      "coming_soon": false
     },
     {
       "id": "vmware",
       "name": "VMware vSphere",
-      "description": "vCenter and ESXi management — VMs, datastores, networks, snapshots, and resource pools.",
+      "description": "vCenter and ESXi management \u2014 VMs, datastores, networks, snapshots, and resource pools.",
       "repo": "7331NeMiSiS/API-Explorer_Vmware",
       "category": "virtualisation",
       "vendor": "Broadcom",
@@ -243,7 +243,7 @@
     {
       "id": "ai-agent",
       "name": "AI Assistant",
-      "description": "On-prem AI assistant — retrieval-augmented chat over your module docs with read-only tool calls, powered by a local LLM. Runs on CPU-only hosts and keeps every request inside your environment. Adds the floating AI Chat panel to the GUI.",
+      "description": "On-prem AI assistant \u2014 retrieval-augmented chat over your module docs with read-only tool calls, powered by a local LLM. Runs on CPU-only hosts and keeps every request inside your environment. Adds the floating AI Chat panel to the GUI.",
       "repo": "7331NeMiSiS/API-Explorer_AI-Agent",
       "category": "ai",
       "vendor": "API Explorer",
@@ -270,7 +270,7 @@
     {
       "id": "proxmox",
       "name": "Proxmox VE",
-      "description": "Proxmox Virtual Environment management — cluster nodes, KVM virtual machines, LXC containers, storage backends, and snapshots.",
+      "description": "Proxmox Virtual Environment management \u2014 cluster nodes, KVM virtual machines, LXC containers, storage backends, and snapshots.",
       "repo": "7331NeMiSiS/API-Explorer_Proxmox",
       "category": "virtualisation",
       "vendor": "Proxmox",
@@ -298,7 +298,7 @@
     {
       "id": "hyper-v",
       "name": "Microsoft Hyper-V",
-      "description": "Hyper-V host and Failover Cluster management — virtual machines, checkpoints, virtual switches, and cluster shared volumes.",
+      "description": "Hyper-V host and Failover Cluster management \u2014 virtual machines, checkpoints, virtual switches, and cluster shared volumes.",
       "repo": "7331NeMiSiS/API-Explorer_HyperV",
       "category": "virtualisation",
       "vendor": "Microsoft",
@@ -326,7 +326,7 @@
     {
       "id": "openshift",
       "name": "Red Hat OpenShift",
-      "description": "Visibility into OpenShift and Kubernetes clusters whose persistent volumes live on Hitachi arrays — nodes, storage classes, PVCs and PVs, correlated to the LDEVs, host groups and ports behind them.",
+      "description": "Visibility into OpenShift and Kubernetes clusters whose persistent volumes live on Hitachi arrays \u2014 nodes, storage classes, PVCs and PVs, correlated to the LDEVs, host groups and ports behind them.",
       "repo": "7331NeMiSiS/API-Explorer_OpenShift",
       "category": "virtualisation",
       "vendor": "Red Hat",
@@ -353,7 +353,7 @@
     {
       "id": "veeam",
       "name": "Veeam Backup & Replication",
-      "description": "Veeam Backup & Replication insight — backup jobs, repositories, restore points, and protected workloads, tied back to the volumes that hold them.",
+      "description": "Veeam Backup & Replication insight \u2014 backup jobs, repositories, restore points, and protected workloads, tied back to the volumes that hold them.",
       "repo": "7331NeMiSiS/API-Explorer_Veeam",
       "category": "data-protection",
       "vendor": "Veeam",
@@ -381,7 +381,7 @@
     {
       "id": "commvault",
       "name": "Commvault",
-      "description": "Commvault data protection — clients, subclients, storage policies, backup jobs, and restore points across the protected estate.",
+      "description": "Commvault data protection \u2014 clients, subclients, storage policies, backup jobs, and restore points across the protected estate.",
       "repo": "7331NeMiSiS/API-Explorer_Commvault",
       "category": "data-protection",
       "vendor": "Commvault",
