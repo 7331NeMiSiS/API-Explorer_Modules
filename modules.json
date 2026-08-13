@@ -32,7 +32,7 @@
       "id": "vsp-one-sds",
       "name": "Hitachi VSP One SDS Block",
       "description": "Software-defined block storage \u2014 VSP One SDS clusters: volumes, compute nodes, drives, capacity and protection domains.",
-      "repo": "visubramaniam/API-Explorer_VSPOneSDS-API",
+      "repo": "clearthoughtv/API-Explorer_VSPOneSDS-API",
       "category": "storage",
       "vendor": "Hitachi",
       "icon": "fa-database",
