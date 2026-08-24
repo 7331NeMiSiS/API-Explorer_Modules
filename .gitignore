@@ -4,3 +4,4 @@
 /.claude
 docs/.DS_Store
 /docs/agent/__pycache__
+modules_backup.json

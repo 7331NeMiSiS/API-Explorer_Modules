@@ -29,33 +29,6 @@
       "release_url": "https://github.com/7331NeMiSiS/API-Explorer_VSPOneBlock-API/releases"
     },
     {
-      "id": "vsp-one-sds",
-      "name": "Hitachi VSP One SDS Block",
-      "description": "Software-defined block storage \u2014 VSP One SDS clusters: volumes, compute nodes, drives, capacity and protection domains.",
-      "repo": "clearthoughtv/API-Explorer_VSPOneSDS-API",
-      "category": "storage",
-      "vendor": "Hitachi",
-      "icon": "fa-database",
-      "color": "#9f1239",
-      "tags": [
-        "block-storage",
-        "hitachi",
-        "sds",
-        "software-defined",
-        "vsp"
-      ],
-      "env_vars": [
-        {
-          "key": "VSPONESDS_API_URL",
-          "description": "URL of the VSP One SDS API service",
-          "default": "http://localhost:8004"
-        }
-      ],
-      "default_port": 8004,
-      "latest_version": null,
-      "release_url": null
-    },
-    {
       "id": "brocade",
       "name": "Brocade SAN",
       "description": "Fibre Channel switch management for Brocade / Broadcom SAN fabrics \u2014 zones, aliases, ports, and fabric discovery.",
