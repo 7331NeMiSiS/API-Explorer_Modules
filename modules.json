@@ -159,7 +159,7 @@
       "default_port": 8019,
       "latest_version": null,
       "release_url": "https://github.com/7331NeMiSiS/API-Explorer_ClearSight",
-      "coming_soon": true
+      "coming_soon": false
     },
     {
       "id": "operating-systems",
