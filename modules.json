@@ -324,6 +324,27 @@
       "release_url": "https://github.com/7331NeMiSiS/API-Explorer_OpenShift.git"
     },
     {
+      "id": "raidcom",
+      "name": "CCI / raidcom",
+      "description": "Adopt and manage replication pairs the REST API cannot see, and run CCI diagnostics against block arrays. Ships CCI 01-83-03; out-of-band (IPCMD) to the array controllers, no command device needed.",
+      "repo": "7331NeMiSiS/API-Explorer_Raidcom",
+      "category": "storage",
+      "vendor": "Hitachi Vantara",
+      "icon": "fa-solid fa-code-branch",
+      "color": "#7c3aed",
+      "tags": ["cci", "raidcom", "replication", "adoption", "gad", "truecopy", "universal-replicator"],
+      "env_vars": [
+        {
+          "key": "RAIDCOM_API_URL",
+          "description": "URL of the raidcom API service",
+          "default": "http://localhost:8025"
+        }
+      ],
+      "default_port": 8025,
+      "latest_version": null,
+      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_Raidcom"
+    },
+    {
       "id": "veeam",
       "name": "Veeam Backup & Replication",
       "description": "Veeam Backup & Replication insight \u2014 backup jobs, repositories, restore points, and protected workloads, tied back to the volumes that hold them.",
