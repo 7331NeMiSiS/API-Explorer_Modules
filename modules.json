@@ -288,10 +288,10 @@
         {
           "key": "HYPERV_API_URL",
           "description": "URL of the Hyper-V API service",
-          "default": "http://localhost:8025"
+          "default": "http://localhost:8029"
         }
       ],
-      "default_port": 8025,
+      "default_port": 8029,
       "latest_version": null,
       "release_url": "https://github.com/7331NeMiSiS/API-Explorer_HyperV",
       "coming_soon": true
