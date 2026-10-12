@@ -77,7 +77,7 @@
         }
       ],
       "default_port": 8014,
-      "latest_version": null,
+      "latest_version": "0.1.0",
       "release_url": null,
       "coming_soon": false
     },
@@ -157,7 +157,7 @@
         }
       ],
       "default_port": 8019,
-      "latest_version": null,
+      "latest_version": "0.1.0",
       "release_url": "https://github.com/7331NeMiSiS/API-Explorer_ClearSight",
       "coming_soon": false
     },
