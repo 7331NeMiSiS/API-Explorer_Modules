@@ -1,5 +1,5 @@
 {
-  "registry_version": "6",
+  "registry_version": "7",
   "modules": [
     {
       "id": "vsp-one-block",
@@ -396,7 +396,7 @@
         }
       ],
       "default_port": 8028,
-      "latest_version": "0.2.3",
+      "latest_version": "0.2.4",
       "release_url": "https://github.com/7331NeMiSiS/API-Explorer_Commvault.git"
     }
   ]
