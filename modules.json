@@ -1,5 +1,5 @@
 {
-  "registry_version": "1",
+  "registry_version": "2",
   "modules": [
     {
       "id": "vsp-one-block",
@@ -104,7 +104,7 @@
         }
       ],
       "default_port": 8020,
-      "latest_version": "1.0.0",
+      "latest_version": "1.1.0",
       "release_url": "https://github.com/7331NeMiSiS/API-Explorer_Vmware.git"
     },
     {
@@ -375,7 +375,7 @@
     {
       "id": "commvault",
       "name": "Commvault",
-      "description": "Commvault data protection \u2014 clients, subclients, storage policies, backup jobs, and restore points across the protected estate.",
+      "description": "Which Hitachi volumes and snapshots Commvault protects, and whether each copy is clean \u2014 IntelliSnap snapshots matched to LDEV and MU, protected VMs and servers per volume, threat-scan verdicts per recovery point and anomalies such as mass deletes, shown as tags on volumes, snapshots and topologies and in a protection report.",
       "repo": "7331NeMiSiS/API-Explorer_Commvault",
       "category": "data-protection",
       "vendor": "Commvault",
@@ -384,8 +384,8 @@
       "tags": [
         "commvault",
         "backup",
-        "storage-policies",
-        "restore",
+        "intellisnap",
+        "threat-scan",
         "data-protection"
       ],
       "env_vars": [
@@ -396,9 +396,8 @@
         }
       ],
       "default_port": 8028,
-      "latest_version": null,
-      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_Commvault",
-      "coming_soon": true
+      "latest_version": "0.2.0",
+      "release_url": "https://github.com/7331NeMiSiS/API-Explorer_Commvault.git"
     }
   ]
 }
