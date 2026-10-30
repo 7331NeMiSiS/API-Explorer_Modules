@@ -1,5 +1,5 @@
 {
-  "registry_version": "8",
+  "registry_version": "9",
   "modules": [
     {
       "id": "vsp-one-block",
@@ -210,7 +210,7 @@
         }
       ],
       "default_port": 8022,
-      "latest_version": "1.1.1",
+      "latest_version": "1.1.2",
       "release_url": "https://github.com/7331NeMiSiS/API-Explorer_CyberSense.git"
     },
     {
