@@ -1,5 +1,5 @@
 {
-  "registry_version": "21",
+  "registry_version": "22",
   "modules": [
     {
       "id": "vsp-one-block",
@@ -314,7 +314,7 @@
         }
       ],
       "default_port": 8025,
-      "latest_version": "0.1.1",
+      "latest_version": "0.2.0",
       "release_url": "https://github.com/7331NeMiSiS/API-Explorer_Raidcom"
     },
     {
