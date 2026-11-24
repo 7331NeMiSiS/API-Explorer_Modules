@@ -1,5 +1,5 @@
 {
-  "registry_version": "37",
+  "registry_version": "38",
   "modules": [
     {
       "id": "vsp-one-block",
@@ -51,7 +51,7 @@
         }
       ],
       "default_port": 8010,
-      "latest_version": "1.1.1",
+      "latest_version": "1.1.2",
       "release_url": "https://github.com/7331NeMiSiS/API-Explorer_Brocade.git"
     },
     {
