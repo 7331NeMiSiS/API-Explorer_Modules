@@ -1,5 +1,5 @@
 {
-  "registry_version": "55",
+  "registry_version": "56",
   "modules": [
     {
       "id": "vsp-one-block",
@@ -25,7 +25,7 @@
         }
       ],
       "default_port": 8001,
-      "latest_version": "1.31.2",
+      "latest_version": "1.31.3",
       "release_url": "https://github.com/7331NeMiSiS/API-Explorer_VSPOneBlock-API/releases"
     },
     {
